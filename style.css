@@ -1,0 +1,108 @@
+
+
+body{
+    background-image: url(background_cover.jpg);
+    
+
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #FAFC94;
+  border: 1px solid black;
+  border-radius: 35px;
+  height: 350px; 
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  top: 26.5%; left: 30%; bottom: 26.5%; right: 30%;
+}
+
+
+.logo{
+    background-color: white;
+    border-radius: 35px;
+    padding: 20px;
+    height: 309px; 
+    border: 1px solid black; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+     
+}
+.login_form {
+    padding: 20px;
+    height: 309px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 0 35px 35px 0;
+}
+
+label {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+#username, #password {
+    padding: 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FAFC94;
+
+  
+}
+
+#submit {
+    color: white;
+    background-color: #217AFF;
+    padding: 2px 30px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin:20px 0 20px 0;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    opacity: 0.8;
+    }
+
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    height: 1px;
+    width: 80%;
+  }
+  .signup_button{
+    color: white;
+    background-color: #217AFF;
+    padding: 2px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    transition: 0.3s;
+}
+.signup_button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
