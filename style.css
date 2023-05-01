@@ -2,10 +2,9 @@
 
 body{
     background-image: url(background_cover.jpg);
-    
-
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .container{
